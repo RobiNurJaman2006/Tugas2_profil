@@ -1,0 +1,108 @@
+body {
+font-family: "Poppins", Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f5f6fa;
+color: #333;
+}
+
+/* ======= NAVIGATION ======= */
+nav {
+background-color: #2f3640;
+text-align: center;
+padding: 1em 0;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: 600;
+transition: color 0.3s;
+}
+
+nav a:hover {
+color: #00a8ff;
+}
+
+/* ======= HEADER ======= */
+header {
+text-align: center;
+padding: 2em 1em;
+background: linear-gradient(135deg, #dcdde1, #f1f2f6);
+border-radius: 10px;
+margin: 2em auto;
+max-width: 800px;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+margin-bottom: 10px;
+border: 3px solid #2f3640;
+}
+
+header h1 {
+margin: 0;
+color: #2f3640;
+}
+
+header p {
+color: #718093;
+font-style: italic;
+}
+
+/* ======= MAIN ======= */
+main {
+max-width: 800px;
+margin: auto;
+}
+
+/* ======= SECTION ======= */
+section {
+background-color: white;
+padding: 1.5em;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+margin: 2em 0;
+}
+
+section h2 {
+text-align: center;
+color: #2f3640;
+border-bottom: 2px solid #00a8ff;
+display: inline-block;
+padding-bottom: 5px;
+}
+
+/* ======= TABLE ======= */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 1em;
+}
+
+th,
+td {
+border: 1px solid #ccc;
+padding: 10px;
+vertical-align: top;
+}
+
+th {
+background-color: #f1f2f6;
+text-align: center;
+}
+
+/* ======= FOOTER ======= */
+footer {
+text-align: center;
+padding: 1em 0;
+background-color: #2f3640;
+color: white;
+margin-top: 2em;
+font-size: 0.9em;
+}
